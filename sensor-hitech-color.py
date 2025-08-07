@@ -19,7 +19,7 @@ COLOR_NAMES = {
 }
 
 def main():
-    # Conecta o sensor à porta S1
+    # Conecta o sensor à porta S4
     sensor = Ev3devSensor(Port.S4)
 
     print("Iniciando leitura do HiTechnic Color Sensor V2 (modos RAW e COLOR).")
